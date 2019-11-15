@@ -37,7 +37,7 @@ void setup()
   pinMode(3,INPUT);
 
   Serial.begin(9600);
-  Serial.println("HID Reader for H10302");
+  Serial.println("HID Reader for 35 bit HID Corporate");
 
   
   // binds the ISR functions to the falling edge of INT0 and INT1 
